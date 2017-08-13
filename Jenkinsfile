@@ -11,6 +11,6 @@ node {
     stage('build'){
     cleanWs()
     echo "build"
-    bat returnStatus: true, script: 'C:\\myprojects\\test.bat'
+    bat returnStatus: true, script: 'C:\\myprojects\\test1.bat'
     }
 }
