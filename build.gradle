@@ -1,5 +1,6 @@
 
 task someTask () {
+println "test changes"
   def GitBsed=new GitBsed()
   GitBsed.getGitBranch();
 }
