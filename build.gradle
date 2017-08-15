@@ -1,0 +1,6 @@
+
+task someTask () {
+  def GitBsed=new GitBsed()
+  GitBsed.getGitBranch();
+}
+
